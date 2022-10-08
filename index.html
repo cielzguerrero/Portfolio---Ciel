@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio : Ciel</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">Cielito C. Guerrero Jr.</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#boutme" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#works" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#techstacks" class="nav-link">Tech Stacks</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="portfolio-banner text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container" style="height: 350px;">
+        <div class="mx-auto p-5 mt-5 mb-5" style="width:500px; text-align:center;">
+            <h1 data-aos="fade-up" data-aos-duration="1500">Cielito C. Guerrero Jr.</h1>
+            <h2 data-aos="fade-up" data-aos-duration="1500" class="mb-4">Developer</h2>
+            <button data-aos="fade-up" data-aos-duration="1500" class="btn btn-warning mb-5" data-bs-toggle="modal"
+            data-bs-target="#enroll">Contact Me</button>
+        </div>
+      </div>
+    </section>
+    <!-- About myself -->
+    <section id="boutme" class="p-5 text-light bg-dark">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img
+            data-aos="fade-up" data-aos-duration="1000"
+              class="img-fluid rounded mx-auto mh-75"
+              src="img/gradpicciel.JPG" style="width:400px"
+              alt=""
+            />
+          </div>
+          <div class="col-md">
+            <h2 data-aos="fade-left" data-aos-duration="2000">
+              Cielito C. Guerrero Jr.
+            </h2>
+            <p data-aos="fade-right" data-aos-duration="1000" class="lead">
+              A 4th Year BSIT Student that studies in Polytechnic University of
+              the Philippines San Pedro Campus.
+            </p>
+            <p data-aos="fade-right" data-aos-duration="2000">
+              Studying Web Development, Web Design, and also 3D. Knowledgeable
+              in HTML, CSS, JavaScript, JQuery, Bootstrap, PHP, MYSQL, and
+              Blender.
+            </p>
+            <a
+              data-aos="fade-down"
+              data-aos-duration="2000"
+              download
+              href="Resume.pdf"
+              class="btn btn-light mt-3"
+            >
+              <i class="bi bi-chevron-right"></i> Download My Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5 text-black">
+      <div class="container">
+        <h2 data-aos="fade-down" data-aos-duration="1500" class="text-center mb-4">About Me</h2>          
+        <div data-aos="fade-up" data-aos-duration="1000" class="accordion accordion-flush" id="questions">
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-one"
+              >
+                Who is Cielito C. Guerrero Jr.?
+              </button>
+            </h2>
+            <div
+              id="question-one"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                A 4th Year BSIT Student from the Polytechnic University of the Philippines San Pedro Campus.
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-two"
+              >
+                What do I do?
+              </button>
+            </h2>
+            <div
+              id="question-two"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                I am a Web Developer. I create Websites and Web Applications. Some of my projects are displayed below.
+              </div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-three"
+              >
+                What are some of my projects and work experiences?
+              </button>
+            </h2>
+            <div
+              id="question-three"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                I created the backend and a little bit of front in our Capstone Project: G-Reward, a system that rewards its user for disposing wastes. I helped created the Teravision Website as our project in our internship in Teravision Information Technology Services. Also, i am quite a beginner in 3D.
+              </div>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-four"
+              >
+                What are my hobbies?
+              </button>
+            </h2>
+            <div
+              id="question-four"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                My hobbies ranges from playing games (Genshin Impact, NBA 2k22, Cyberpunk 2077, etc..) to reading random stuff that catches my interest. I study projects/websites that i downloaded from open-source sites, learning how a single function works. I also make 3d models from time to time while at the same time improving my sketching skills (Annotations, Body Anatomy, Etc..).
+              </div>
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-five"
+              >
+                How can you contact me?
+              </button>
+            </h2>
+            <div
+              id="question-five"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                This portfolio is my personal website. You can contact me by clicking the "Contact Me" button and filing out the form to send me a message. You can also check out my other contact that can be seen in the website footer.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- My Works -->
+    <section id="works" class="bg-dark p-5">
+      <div class="container">
+        <h2 data-aos="fade-down" data-aos-duration="1500" class="text-center mb-4 text-white">My Works</h2>          
+        <div class="row text-center">
+          <div class="col-md-4 mb-4">
+            <div data-aos="fade-up" data-aos-duration="1000" class="works-col">
+              <div class=" card bg-dark text-white">
+                <img src="img/Gcash.png" class="works-img card-img" alt="...">
+                <div class=" card-img-overlay">
+                  <div class="works-card">
+                    <h5 class="card-title p-3">G-Reward</h5>
+                  <p class="card-text">A Waste Disposal Management System with Reward Program (Capstone Project)</p>
+                  <a href="" class="btn btn-primary m-3">Source Code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div data-aos="fade-up" data-aos-duration="1000" class="works-col">
+              <div class=" card bg-dark text-white">
+                <img src="img/Portfolio.png" class="works-img card-img" alt="...">
+                <div class=" card-img-overlay">
+                  <div class="works-card">
+                    <h5 class="card-title p-3">Portfolio</h5>
+                  <p class="card-text">Cielito C. Guerrero Jr. - Personal Portfolio with Bootstrap 5</p>
+                  <a href="" target="_blank" class="btn btn-primary m-3">Source Code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div data-aos="fade-up" data-aos-duration="1000" class="works-col">
+              <div class=" card bg-dark text-white">
+                <img src="img/Lostandfound.png" class="works-img card-img" alt="...">
+                <div class=" card-img-overlay">
+                  <div class="works-card">
+                    <h5 class="card-title p-3">Lost n Found System</h5>
+                  <p class="card-text">Lost n Found Items Management System using PHP & MySQL</p>
+                  <a href="http://lostnfound.epizy.com/index.php" target="_blank" class="btn btn-primary m-3">Source Code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div data-aos="fade-up" data-aos-duration="1000" class="works-col">
+              <div class=" card bg-dark text-white">
+                <img src="img/Teravision.png" class="works-img card-img" alt="...">
+                <div class=" card-img-overlay">
+                  <div class="works-card">
+                    <h5 class="card-title p-3">Teravision</h5>
+                  <p class="card-text">Official Website of Teravision Information Technology Services (Internship Output)</p>
+                  <a href="https://teravisioncorp.site/" target="_blank" class="btn btn-primary m-3">Visit Site</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div data-aos="fade-up" data-aos-duration="1000" class="works-col">
+              <div class=" card bg-dark text-white">
+                <img src="img/movierecos.png" class="works-img card-img" alt="...">
+                <div class="card-img-overlay">
+                  <div class="works-card">
+                    <h5 class="card-title p-3">MovieRecos</h5>
+                  <p class="card-text">Personal Project: Movie Recommendations Website</p>
+                  <a href="https://cielzguerrero.github.io/MovieRecos/" target="_blank" class="btn btn-primary m-3">Visit Site</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div data-aos="fade-up" data-aos-duration="1000" class="works-col">
+              <div class=" card bg-dark text-white">
+                <img src="img/underconstruction.jpg" class="works-img card-img" alt="...">
+                <div class=" card-img-overlay">
+                  <div class="works-card">
+                    <h5 class="card-title p-3">Upcoming Project</h5>
+                  <p class="card-text">Under Development Project</p>
+                  <a href="#" target="_blank" class="btn btn-primary m-3">Coming Soon...</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div
+      class="modal fade"
+      id="enroll"
+      tabindex="-1"
+      aria-labelledby="enrollLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="enrollLabel">Send Me A Message</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Fill out this form and I will get back to you.</p>
+            <form onsubmit="Mail(); reset(); return false;">
+              <div class="mb-3">
+                <label for="name" class="col-form-label">
+                  Name:
+                </label>
+                <input type="text" required autocomplete="off" class="form-control" id="name"/>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="col-form-label">Email:</label>
+                <input type="email" required autocomplete="off" class="form-control" id="email"/>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="col-form-label">Message:</label>
+                <textarea required autocomplete="off" class="form-control" id="message" style="height:110px"></textarea>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <script>
+    function Mail() {
+      let name = document.getElementById("name").value;
+      let email = document.getElementById("email").value;
+      let message = document.getElementById("message").value;
+
+      Email.send({
+        SecureToken: "f570b5d5-33c6-4ea1-9e53-a1734a694a3b",
+        To: "cielzguerrero@gmail.com",
+        From: "cielzguerrero@gmail.com",
+        Subject: "Email From Portfolio Contact Form",
+        Body:
+          "Name: " +
+          name +
+          "<br/><br/> Email: " +
+          email +
+          "<br/><br/> Message: " +
+          message,
+      }).then((message) =>
+        alert(
+          "Thank you for sending your message. I will get back to you as soon as possible."
+        )
+      );
+    }
+  </script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+</html>
